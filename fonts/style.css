@@ -1,0 +1,388 @@
+.main{
+	max-width: 1366px;
+	max-height: 959px;
+	margin: 0px auto;
+	   
+}
+
+.mainfon{
+position: absolute;
+max-width:100%;
+}
+
+header{
+	min-height: 150px;
+	max-width: 1139px;
+	margin: 0px auto;
+}
+
+.slider_block{
+max-height: 440px;
+overflow: hidden;
+}
+
+.service{
+min-height: 490px;
+}
+
+.about{
+background: #d1d1d1;
+min-height: 620px;
+}
+
+footer{
+min-height: 100px;
+}
+
+.wrap{
+	max-width: 1141px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*---------------
+NAV
+---------------*/
+
+.navbar-default {
+    background-color: #f8f8f800;
+    border-color: #e7e7e700;
+}
+.navbar-center {
+    margin-top: 20px;
+    font-size: 16px;
+	font-weight: 300;
+	font-family: "Open Sans";
+}
+
+.navbar-right {
+    margin-top: 20px;
+    font-size: 16px;
+	font-weight: 300;
+	font-family: "Open Sans";
+}
+
+.navbar-nav>li {
+text-align: center;
+}
+
+.navbar-nav>li>a {
+ font-size: 14px;
+letter-spacing: 0px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.navbar-nav>p:nth-child(1) {
+	font-size: 14px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.navbar-nav>p:nth-child(2) {
+	font-size: 18px;
+line-height: 24px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.navbar-header{
+min-height: 90px;
+}
+
+.navbar-brand > p{
+font-size: 11px;
+letter-spacing: 1px;
+color: #898989;
+font-family: "Helvetica Neue Cyr";
+}
+
+.dropdown-menu {
+background-color: #d2e0cc;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	background-color: #f5f5f5de;
+	
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+}
+.dropdown-submenu > a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #cccccc;
+	margin-top: 5px;
+	margin-right: -10px;
+	text-decoration: underline;
+}
+.dropdown-submenu:hover > a:after {
+	color: #78b660;
+
+}
+.dropdown-submenu.pull-left {
+	float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+
+.caret{
+	color: #78b660;
+}
+
+.dropdown-submenu > a:after {
+color: #78b660;
+}
+
+/*.dropdown-submenu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: underline;
+    background-color: #f5f5f5;
+}*/
+
+/*---------------
+SLIDER
+---------------*/
+
+.slider{
+	width: 440px;
+    overflow: hidden;
+}
+
+.women{
+    float: right;
+    margin-top: -255px;
+}
+
+.carousel-indicators {
+    bottom: -1%;
+    margin-left: -66%;
+ }
+
+ .carousel-indicators .active {
+    width: 13px;
+ 	height: 13px;
+	border-radius: 6px;
+	background-color: #7db52c;
+	margin: 1px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+	height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #363636;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+ 
+ /*Для "точек"" на карусели брал цвет из макета.
+ Но, почему-то, в самом макете они выглядят более светлыми.
+ Возможно, я где-то не тот цвет взял.*/
+
+ .carousel-caption{
+ 	display: none;
+ 	bottom: 250px;
+ 	left: 150%;
+ 	
+ }
+
+
+ }
+ .btn-carusel{
+    bottom: 200px;
+ 	left: 150%;	
+ }
+ .line{
+ 	border-bottom: 2px solid #000;
+ 	top: 60px;
+ }
+ .service .row .col-sm-6{
+ 	text-align: center;
+ 	font-size: 48px;
+	color: #5b6169;
+	font-weight: 300;
+	font-family: "Open Sans";
+	top: 26px;
+ }
+
+ .signature{
+ 	width: 433px;
+ 	height: 175px;
+ 	margin-left: 85px;
+ 	margin-top: 81px
+ }
+ 
+.sign1{
+font-size: 30px;
+	color: #363636;
+	font-weight: bold;
+	font-family: "Helvetica Neue Cyr";
+	text-align: left;
+}	
+
+.sign2{
+font-size: 23px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+text-align: left;
+ }
+
+.sign3{
+font-size: 52px;
+color: #78b660;
+font-weight: bold;
+font-family: "Helvetica Neue Cyr";
+position: relative;
+top: -50px;
+left: 25px;
+}
+
+.signature > img:nth-child(1){
+	margin-right: 10px;
+}
+
+/*не смог, почему-то, "дотянуться" до <p> через nth-child
+  поэтому сделал через классы
+
+.signature>p:nth-child(2){
+ 	font-size: 30px;
+	color: #363636;
+	font-weight: bold;
+	font-family: "Helvetica Neue Cyr";
+ }*/
+
+
+.content{
+	position: relative;
+	text-align: center;
+	margin-top: 70px;
+	max-width: 1139px;
+	margin: 70px auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.content > p:nth-child(1){
+font-size: 30px;
+line-height: 20px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.content > p:nth-child(2){
+font-size: 14px;
+line-height: 26px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.content > p:nth-child(3){
+font-size: 14px;
+line-height: 26px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+.content > p:nth-child(4){
+font-size: 14px;
+line-height: 26px;
+color: #363636;
+font-family: "Helvetica Neue Cyr";
+}
+
+ @font-face {
+font-family: "Open Sans";  
+src: url("../fonts/OpenSans-Light.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+
+  @font-face {
+font-family: "Myriad Pro";  
+src: url("../fonts/MyriadProRegular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+
+ @font-face {
+font-family: "Helvetica Neue Cyr";  
+src: url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+
+ @media (max-width: 767px){
+
+.slider_block {
+	display: none;
+}
+
+.content > p:nth-child(1){
+font-size: 20px;
+line-height: 15px;
+}
+
+}
+
+@media (max-width: 1030px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
